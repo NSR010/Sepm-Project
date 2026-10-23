@@ -1,0 +1,36 @@
+{
+  "ranAt": "2026-10-22T12:19:31.386390+00:00",
+  "deployed": true,
+  "reason": "deployed",
+  "settings": {
+    "cf_dim": 32,
+    "cold_pref_boost": 0.5,
+    "min_warm": 3,
+    "alpha": 0.3,
+    "pop_weight": 4.0,
+    "pref_boost": 1.0
+  },
+  "validationNdcg": 0.1699244763390303,
+  "testMetrics": {
+    "precision@10": 0.07377777777777779,
+    "recall@10": 0.26708250906245895,
+    "ndcg@10": 0.22288349245968214,
+    "hit_rate": 0.56,
+    "coverage": 0.0575,
+    "users_evaluated": 225
+  },
+  "popularityTestMetrics": {
+    "precision@10": 0.051555555555555556,
+    "recall@10": 0.17590866174575445,
+    "ndcg@10": 0.13689396773276338,
+    "hit_rate": 0.4222222222222222,
+    "coverage": 0.016666666666666666,
+    "users_evaluated": 225
+  },
+  "counts": {
+    "users": 300,
+    "content": 1200,
+    "interactions": 3938
+  },
+  "modelVersion": "v1-20261022T121931"
+}
